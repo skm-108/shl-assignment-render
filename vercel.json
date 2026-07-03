@@ -1,0 +1,11 @@
+{
+  "experimentalServices": {
+    "shl-assessment-recommender": {
+      "type": "web",
+      "framework": "fastapi",
+      "entrypoint": "app/api/main.py",
+      "routePrefix": "/",
+      "buildCommand": "pip install -r requirements.txt"
+    }
+  }
+}
