@@ -1,5 +1,12 @@
 [project]
+name = "shl-assessment-recommender"
+version = "0.1.0"
 requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.139.0",
+    "uvicorn[standard]==0.49.0",
+    "pydantic==2.13.4",
+]
 
 [tool.vercel]
 entrypoint = "app.api.main:app"
