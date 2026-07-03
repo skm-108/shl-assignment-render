@@ -1,0 +1,15 @@
+.git/
+.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/
+sample_conversations/
+ANALYSIS.md
+APPROACH.md
+ARCHITECTURE.md
+IMPLEMENTATION_PLAN.md
+PROMPTS.md
+TESTING.md
+run_app.ps1
